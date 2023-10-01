@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    position: relative;
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    
+    height:10vh;
+    width: 100vw;
+}
+#page1>nav>img{
+    margin-top: 1vw;
+    width: 3.5%;
+    
+}
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #0b48ed;
+    color: white;
+    font-size: 14px;
+}
+.bottom-page1{
+    position: absolute;
+    
+    bottom: 20%;
+    left: 8%;
+}
+h1{
+    color: white;
+    font-size: 6.5vw;
+    font-weight: 100;
+    line-height: 1;
+}
+.bottom-page2{
+    color: white;
+    position: absolute;
+     bottom: 10%;
+    left: 8%;
+}
+p{
+    font-size:1.3vw ;
+}
+#btn2{
+    position: absolute;
+    bottom: 9%;
+    left:35% ;
+    background-color: white;
+    color: blue;
+    height: 44px;
+    border-radius: 40px;
+    border: 1px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+b{
+    font-size: 12px;
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+}
+.fulllblue{
+
+     height: 100%;
+     width: 100%;
+     background-color: blue;
+}
+.fullblue{
+    position: relative;
+    left: 10%;
+    top: 22%;
+}
+#certi{
+    color: white;
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+    
+}
+#the{
+    font-size: 50px;
+    word-spacing: 13px;
+    color: white;
+    line-height: 75px;
+    filter: blur(0.7px);
+    -webkit-filter: blur(0.7px);
+}
+.imggg{
+    position: absolute;
+    width: 100%;
+    height: 160%;
+    background-color: blue;
+}
+#img1{
+    position: absolute;
+    left: 480px;
+    top: -70px;
+    width: 750px;
+    height: 450px;
+}
+#what{
+    position: absolute;
+    left: 120px;
+    top: 15px;
+    color: white;
+    font-size: 75px;
+
+}
+.web33{
+    position: absolute;
+    top: 450px;
+    left: 480px;
+    color: white;
+    word-spacing: 15px;
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+}
+.colorr{
+    color: rgb(228, 222, 222);
+    font-size: 20px;
+}
+
+.all{
+    position: absolute;
+    color: black;
+    top: 300%;
+    left: 20%;
+
+}
